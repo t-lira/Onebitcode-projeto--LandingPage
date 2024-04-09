@@ -1,0 +1,40 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+$backgroun-color: #131212f1;
+$btn-color: #ff0043;
+
+.container--bg{
+  background: #131212f1 url(image/backgroundLp.png) no-repeat right / cover;
+}
+
+.box-bg{
+  background-color: $backgroun-color;
+  width: 500px;
+  height: auto;
+  color: #fff;
+}
+
+.image-logo{
+  width: 200px;
+}
+
+.paragraph{
+  margin: 7px 0px;
+}
+
+.button{
+  color: $btn-color;
+  border: 1px solid $btn-color;
+
+  &:hover{
+    background-color: $btn-color;
+    color: #fff;
+  }
+}
+
+.footer{
+margin: 30px 0 -30px 0;
+}
